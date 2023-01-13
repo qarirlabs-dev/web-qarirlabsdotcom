@@ -48,7 +48,7 @@ export const programs = {
       },
     ],
     schedule: {
-      nearest: '31 Agustus 2023',
+      nearest: '31 Januari 2023',
       main: {
         title: 'Kelas online',
         title2: '(Bootcamp & Bootcamp Pro)',
@@ -360,7 +360,7 @@ export const programs = {
       },
     ],
     schedule: {
-      nearest: '1 September 2023',
+      nearest: '31 Januari 2023',
       main: {
         title: 'Kelas online',
         title2: '',
@@ -560,7 +560,7 @@ export const programs = {
       },
     ],
     schedule: {
-      nearest: '2 September 2023',
+      nearest: '31 Januari 2023',
       main: {
         title: 'Kelas online',
         detail: [{ day: 'Jumat & Sabtu', time: '19.00-21.00 WIB' }],
