@@ -15,13 +15,13 @@ const programs = [
     icon_path: '/assets/images/icons/database_options.svg',
     href: `${programsData['data-science-master-class'].path.params.programName}`,
   },
-  {
-    title: 'UI/UX Design Master Class',
-    description:
-      'Menjadi Profesional Desainer UI/UX dalam 12 minggu dan raih karir di perusahaan hiring partner QarirLabs yang tersebar di Asia.',
-    icon_path: '/assets/images/icons/navigation_toolbar_left.svg',
-    href: `${programsData['ui-ux-design-master-class'].path.params.programName}`,
-  },
+  // {
+  //   title: 'UI/UX Design Master Class',
+  //   description:
+  //     'Menjadi Profesional Desainer UI/UX dalam 12 minggu dan raih karir di perusahaan hiring partner QarirLabs yang tersebar di Asia.',
+  //   icon_path: '/assets/images/icons/navigation_toolbar_left.svg',
+  //   href: `${programsData['ui-ux-design-master-class'].path.params.programName}`,
+  // },
 ];
 
 const ProgramSection = () => {
@@ -38,7 +38,7 @@ const ProgramSection = () => {
         {programs.map((program, programIndex) => (
           <div
             key={programIndex}
-            className="basis-1/3 box-border lg:p-[30px] p-[20px]  border-2 rounded-xl border-blue-800"
+            className="basis-1/2 box-border lg:p-[30px] p-[20px]  border-2 rounded-xl border-blue-800"
           >
             <div className="flex flex-col lg:gap-4 sm:gap-2 gap-1 tracking-[0.5px] sm:p-3">
               <img
