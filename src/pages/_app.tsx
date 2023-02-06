@@ -4,6 +4,7 @@ import { NextPage } from 'next';
 import { AppProps } from 'next/app';
 import TagManager from 'react-gtm-module';
 
+import { FloatingButton } from '../components/layout/FloatingButton';
 import { Footer } from '../components/layout/Footer';
 
 import '../styles/global.css';
@@ -27,7 +28,12 @@ const MyApp = ({ Component, pageProps }: AppPropsWithLayout) => {
   return (
     <>
       <Component {...pageProps} />
-      {Component.withoutFooter ? '' : <Footer />}
+      {!Component.withoutFooter && (
+        <>
+          <FloatingButton />
+          <Footer />
+        </>
+      )}
     </>
   );
 };
