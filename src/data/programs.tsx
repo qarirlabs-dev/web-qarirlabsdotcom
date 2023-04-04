@@ -52,7 +52,7 @@ export const programs = {
       main: {
         title: 'Kelas online',
         title2: '(Bootcamp & Bootcamp Pro)',
-        detail: [{ day: 'Rabu & Minggu', time: '19.00-21.00 WIB' }],
+        detail: [{ day: 'Rabu & Jum\'at', time: '19.00-21.00 WIB' }],
       },
       secondary: {
         title: 'Kelas offline',
@@ -364,7 +364,7 @@ export const programs = {
       main: {
         title: 'Kelas online',
         title2: '',
-        detail: [{ day: 'Kamis & Minggu', time: '19.00-21.00 WIB' }],
+        detail: [{ day: 'Kamis & Sabtu', time: '19.00-21.00 WIB' }],
       },
       secondary: null,
     },
@@ -560,7 +560,7 @@ export const programs = {
       },
     ],
     schedule: {
-      nearest: '10 Mei 2023',
+      nearest: '21 Maret 2023',
       main: {
         title: 'Kelas online',
         detail: [{ day: 'Jumat & Sabtu', time: '19.00-21.00 WIB' }],
