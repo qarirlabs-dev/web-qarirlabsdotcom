@@ -1,6 +1,7 @@
 import { GetStaticProps } from 'next';
 
 import GraduateCompanies from '../../components/homepage/GraduateCompanies';
+import { Meta } from '../../components/layout/Meta';
 import AboutProgram from '../../components/programs/AboutProgram';
 import NavBar from '../../components/programs/NavBar';
 import ProgramFaq from '../../components/programs/ProgramFaq';
@@ -15,6 +16,7 @@ import { getProgram, getProgramParams, Program } from '../../data/programs';
 export default function ProgramPage({ programData }: { programData: Program }) {
   return (
     <>
+      <Meta title={programData.title} description={AppConfig.description} />
       <ProgramsHeader {...programData} />
       <GraduateCompanies
         className="lg:pt-16 pt-8 pl-4 lg:text-center text-left"
