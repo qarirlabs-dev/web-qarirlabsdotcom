@@ -12,11 +12,12 @@ import ProgramReview from '../../components/programs/ProgramReview';
 import ProgramSchedule from '../../components/programs/ProgramSchedule';
 import ProgramsHeader from '../../components/programs/ProgramsHeader';
 import { getProgram, getProgramParams, Program } from '../../data/programs';
+import { AppConfig } from '../../utils/AppConfig';
 
 export default function ProgramPage({ programData }: { programData: Program }) {
   return (
     <>
-      <Meta title={programData.title} />
+      <Meta title={programData.title} description={AppConfig.description} />
       <ProgramsHeader {...programData} />
       <GraduateCompanies
         className="lg:pt-16 pt-8 pl-4 lg:text-center text-left"
