@@ -16,7 +16,7 @@ import { getProgram, getProgramParams, Program } from '../../data/programs';
 export default function ProgramPage({ programData }: { programData: Program }) {
   return (
     <>
-      <Meta title={programData.title} description={AppConfig.description} />
+      <Meta title={programData.title} />
       <ProgramsHeader {...programData} />
       <GraduateCompanies
         className="lg:pt-16 pt-8 pl-4 lg:text-center text-left"
